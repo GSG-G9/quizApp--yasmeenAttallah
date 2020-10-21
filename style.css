@@ -42,3 +42,39 @@ article.front input[type="button"].start{
    }
 
 /* End front*/
+/* start Quiz */
+article.quizz {
+    display: none;
+    width: 800px; 
+    margin: auto;
+    background-color: coral;
+    
+}
+article.quizz {
+    text-align: left;
+   padding-top: 40px;
+   padding-left: 55px;
+   height: auto;
+}
+ .quizz p{
+ border: 2px solid #fff;
+ background-color: #fff;
+ width: 600px;
+ padding:15px;
+ opacity: 0.8;
+ border-radius: 100px;
+}
+.quizz div{
+    padding:5px;
+    margin: 10px 30px 15px;
+    width:240px;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 100px;
+     outline: 0;
+     border:2px solid #fff;
+     text-align: left;
+     background-color: #fff;
+     color: #000;
+     font-size:25px;
+}
