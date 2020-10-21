@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+*{
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+/* Start Front */
+body{
+    background-color: #A6F6F1;}
+h1{font-family: "Sansita"; }
+article.front{
+width: 1000px;
+height: 300px;
+color :#000;
+margin: 150px auto;
+}
+article.front h3, p.intro {
+    text-align: center;
+    font-family: 'Sansita';
+ }
+article.front h3 { font-size: 38px;}
+article.front P.astrike{
+    margin: auto 300px ;
+    color :#f00
+}
+article.front input[type="text"],input[type="button"] {
+   outline: 0;
+   padding:15px;
+   border: 2px solid #fff;
+   border-radius:100px;
+}
+article.front input[type="text"]{ margin: auto 300px 30px;}
+article.front input[type="button"].start{
+    margin: auto 345px 30px;
+    outline: 0;
+    padding:15px;
+    width:80px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    cursor: pointer;
+   }
+
+/* End front*/
